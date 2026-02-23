@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #fdfbf7; /* soft natural cream */
+    color: #1a1a1a; /* soft black for elegant contrast */
+    overflow-x: hidden;
+  }
+}
