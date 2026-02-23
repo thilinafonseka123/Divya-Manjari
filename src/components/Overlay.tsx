@@ -23,24 +23,33 @@ export default function Overlay({ progress }: OverlayProps) {
         <div className="absolute inset-0 pointer-events-none z-10 flex flex-col justify-center px-8 md:px-24">
             {/* SECTION 1 - Center */}
             {/* SECTION 1 - Refined Editorial Look */}
-<motion.div
-    style={{ opacity: opacity1, y: y1 }}
-    className="absolute inset-0 flex flex-col items-center justify-center text-center"
->
-    <div className="relative p-12">
-        {/* Subtle decorative elements */}
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-px h-12 bg-[#D4AF37]/40" />
-        
-        <h2 className="text-5xl md:text-7xl font-extralight tracking-tight text-[#1A1A1A]">
-            <span className="block font-serif italic text-[#D4AF37] mb-2">Divya Manjari</span>
-            <span className="block uppercase text-2xl md:text-3xl tracking-[0.2em] font-light opacity-80">
-                The Essence of Nature
-            </span>
-        </h2>
+            <motion.div
+                style={{ opacity: opacity1, y: y1 }}
+                className="absolute inset-0 flex flex-col items-center justify-center text-center"
+            >
+                <div className="relative p-12">
+                    {/* Subtle decorative elements */}
+                    {/* <div className="absolute top-0 left-1/2 -translate-x-1/2 w-px h-12 bg-[#D4AF37]/40" /> */}
 
-        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-12 h-px bg-[#D4AF37]/40" />
-    </div>
-</motion.div>
+                    {/* <h2 className="text-5xl md:text-7xl font-extralight tracking-tight text-[#1A1A1A]">
+                        <span className="block font-serif italic text-[#D4AF37] mb-2">Divya Manjari</span>
+                        <span className="block uppercase text-2xl md:text-3xl tracking-[0.2em] font-light opacity-80">
+                            The Essence of Nature
+                        </span>
+                    </h2> */}
+
+                    <h2 className="text-6xl md:text-8xl font-light tracking-tight text-[#1A1A1A] drop-shadow-sm">
+                        <span className="block font-serif italic text-[#D4AF37] mb-2 drop-shadow-md">
+                            Divya Manjari
+                        </span>
+                        <span className="block uppercase text-xl md:text-2xl tracking-[0.4em] font-medium opacity-90">
+                            The Essence of Nature
+                        </span>
+                    </h2>
+
+                    <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-12 h-px bg-[#D4AF37]/40" />
+                </div>
+            </motion.div>
 
             {/* SECTION 2 - Left Aligned */}
             <motion.div
